@@ -623,6 +623,34 @@
       "original_sha256": "6527f268531a3878fe489156857643f891a04c7676dd33e877f8ca59cd9192d3",
       "published_sha256": "2cee7b45381051fb068974bb7e762b6571bf7bd52a8c55006790e5be4ea3ab6f",
       "changes": "Deployment environment root parameterized through RIGID_CONDA_ROOT"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/pixel_coordinates.py",
+      "published": "evaluation/pixel_coordinates.py",
+      "original_sha256": "2444f743bb1478d52ea2486a0bad921672bb5ff649c43b5029ff4177718da3fc",
+      "published_sha256": "2444f743bb1478d52ea2486a0bad921672bb5ff649c43b5029ff4177718da3fc",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_pixel_coordinates.py",
+      "published": "evaluation/test_pixel_coordinates.py",
+      "original_sha256": "46e5454205b4fb6f03ccf4de2deeb95ee8194974051cb7ac504dc89eb545bf51",
+      "published_sha256": "46e5454205b4fb6f03ccf4de2deeb95ee8194974051cb7ac504dc89eb545bf51",
+      "changes": "none"
+    },
+    {
+      "source": "scripts/render_registered_asset_pilot_v2.py",
+      "published": "research_snapshot/scripts/render_registered_asset_pilot_v2.py",
+      "original_sha256": "ed90b95234145fe8f3811bb87994c27242f35c4ef3f04ec310db0b562b86c40d",
+      "published_sha256": "ed90b95234145fe8f3811bb87994c27242f35c4ef3f04ec310db0b562b86c40d",
+      "changes": "none"
+    },
+    {
+      "source": "scripts/audit_prepared_scene_coordinates.py",
+      "published": "research_snapshot/scripts/audit_prepared_scene_coordinates.py",
+      "original_sha256": "ccf17665534cb71cde8654ee7dbce7cd263b0bddea6a00a603e1f562bbe3f918",
+      "published_sha256": "ccf17665534cb71cde8654ee7dbce7cd263b0bddea6a00a603e1f562bbe3f918",
+      "changes": "none"
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "schema": "pixel_sampling_and_scene_coordinate_audit_v1",
+  "updated_at_utc": "2026-11-11T09:18:51.219852+00:00",
+  "scene_records_checked": 341,
+  "scene_counts": {
+    "native_units_and_continuous_projection_verified": 341
+  },
+  "scene_by_method": {
+    "omnire": 135,
+    "streetgs": 135,
+    "splatad": 71
+  },
+  "legacy_direct_gaussian_orbit_sampling_offset_array_pixels": [
+    -0.5,
+    -0.5
+  ],
+  "new_intrinsics_conversion": "integer_centres_to_pixel_edges: cx += .5, cy += .5",
+  "cpu_tests_passed": 54,
+  "trellis2_v2_diagnostic_views": 4,
+  "trellis2_v2_validation_sha256": "d584215d0f3628770c226297ed94faa49a49b2ca1a809d9f2e912534d457f471",
+  "gaussian_actual_perspective_render_validation": "pending_gpu",
+  "formal_metrics_enabled": false,
+  "limitations": [
+    "Continuous projection checks do not establish raster sampling equivalence.",
+    "Do not retroactively certify legacy native scene images; their rasterizer conventions still require investigation.",
+    "Known-length-conditioned canonical asset comparisons must be identified separately from native scene reconstruction.",
+    "Source reference in the development object is truncated."
+  ]
+}
