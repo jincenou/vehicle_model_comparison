@@ -54,6 +54,7 @@ def declared_artifact(cohort, method, jobs, old_ah):
         old = old_ah[sid]
         path = Path(old['asset'])
         state = read(path.parents[2]/'job.json')
+        if state['sample_id'] != sid: raise ValueError('AH generation identity differs from frozen asset')
         return dict(generation_status='existing_frozen_asset', asset=str(path), asset_sha256=old['asset_sha256'],
                     representation='gaussian_ply', input_regime='real_source_image_and_mask'), state
     job = jobs[method][sid]
@@ -62,6 +63,7 @@ def declared_artifact(cohort, method, jobs, old_ah):
     if job['status'] != 'completed': return row, None
     folder = Path(job.get('run_dir', jobs['_prep']/'runs/trellis2_vehicle432_v1'/sid))
     state = read(folder/('job.json' if method == 'ah' else 'state.json'))
+    if state['sample_id'] != sid: raise ValueError('Generation identity differs from frozen asset')
     if method == 'ah':
         path, expected = job['output'], job['output_sha256']
     elif row['representation'] == 'gaussian_ply':

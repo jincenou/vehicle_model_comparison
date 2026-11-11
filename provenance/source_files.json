@@ -550,8 +550,8 @@
     {
       "source": "scripts/prepare_rigid500_evaluation.py",
       "published": "research_snapshot/scripts/prepare_rigid500_evaluation.py",
-      "original_sha256": "870e9395b577a7a39bc4132c1b08fbe19da1ef5a8bd5eee957c5f3c05c428148",
-      "published_sha256": "870e9395b577a7a39bc4132c1b08fbe19da1ef5a8bd5eee957c5f3c05c428148",
+      "original_sha256": "68a0155dfe055cbd9350f74a3bec14eaddf0b17c1792c48f32e3cb7915257b30",
+      "published_sha256": "68a0155dfe055cbd9350f74a3bec14eaddf0b17c1792c48f32e3cb7915257b30",
       "changes": "none"
     },
     {
