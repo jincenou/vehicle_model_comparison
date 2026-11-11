@@ -539,6 +539,13 @@
       "original_sha256": "fb4e4a00b8143fa523945ec5b616732aeba683b8b717699b205f64b60372ebd1",
       "published_sha256": "9b809334496cc33a5088c88537541f0b9a0892474f0e056865038d09a0036448",
       "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/audit_trellis2_failures.py",
+      "published": "research_snapshot/scripts/audit_trellis2_failures.py",
+      "original_sha256": "add1df24457498ec75b234d7f34ece18635b3694de391207c3b2cfb84ceb5bc1",
+      "published_sha256": "add1df24457498ec75b234d7f34ece18635b3694de391207c3b2cfb84ceb5bc1",
+      "changes": "none"
     }
   ]
 }

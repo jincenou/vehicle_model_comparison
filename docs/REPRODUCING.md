@@ -88,3 +88,7 @@ GPU workers must claim exclusive per-device leases, respect other processes and 
 ## 6. Qualify references, then evaluate
 
 Follow [EVALUATION.md](EVALUATION.md). Keep formal metric entries disabled until the associated reference, representation, camera and encoder gates are actually satisfied. Generation completion alone does not enable geometry, held-out, or source-camera metrics.
+
+## Failure evidence audit
+
+`research_snapshot/scripts/audit_trellis2_failures.py` reads the frozen-cohort queue snapshots, generation state, input hashes, logs and native/reload previews, and writes a separate report. It distinguishes empty sparse-coordinate generation from exact serialization with insufficient rendered alpha support. It never retries a job, edits queue status, changes a model parameter or relaxes an acceptance gate. A visibility failure is not automatically a corrupted checkpoint; preserve both native-artifact availability and the failed support gate in coverage reporting. The script requires local experiment artifacts and is not part of the data-free quick start.
