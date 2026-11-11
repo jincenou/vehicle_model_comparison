@@ -1,0 +1,109 @@
+{
+  "schema": "native_alpha_measurement_pilot_evidence_v1",
+  "updated_at_utc": "2026-11-11T09:09:39.172007+00:00",
+  "results": [
+    {
+      "sample_id": "calibration_fixture_v2",
+      "method": "fixture_mesh",
+      "state_sha256": "75915283a2ad6a75b6fe343d6e39bfa1fb810be54495327e66c06a77e46062da",
+      "status": "measured_pending_cross_backend_review",
+      "fixture_check": {
+        "expected_extent": [
+          2.0,
+          1.0,
+          0.5
+        ],
+        "max_extent_error": 0.996875,
+        "tolerance": 0.009375,
+        "passed": false
+      },
+      "convergence": {
+        "boundary_max_difference": 0.004687500000000067,
+        "predeclared_tolerance": 0.0375,
+        "passed": true,
+        "formal_metrics_qualified": false
+      },
+      "measured_extent": [
+        1.003125,
+        1.003125,
+        1.003125
+      ],
+      "formal_metrics_qualified": false
+    },
+    {
+      "sample_id": "calibration_fixture_v3",
+      "method": "fixture_mesh",
+      "state_sha256": "86be2623c5090193992512df968656cc8c2fcfe145e14c8ac1272961a99df3b3",
+      "status": "measured_pending_cross_backend_review",
+      "fixture_check": {
+        "expected_extent": [
+          2.0,
+          1.0,
+          0.5
+        ],
+        "max_extent_error": 0.006250000000000089,
+        "tolerance": 0.01875,
+        "passed": true
+      },
+      "convergence": {
+        "boundary_max_difference": 0.009375000000000133,
+        "predeclared_tolerance": 0.075,
+        "passed": true,
+        "formal_metrics_qualified": false
+      },
+      "measured_extent": [
+        2.00625,
+        0.9937499999999999,
+        0.50625
+      ],
+      "formal_metrics_qualified": false
+    },
+    {
+      "sample_id": "scene-0064_t000637",
+      "method": "trellis2",
+      "state_sha256": "1dad13cd3b8a9b0c1e10d6d5ff183b91bf6188b1ae33a5c8174d2879ebdf1808",
+      "status": "measured_pending_cross_backend_review",
+      "fixture_check": null,
+      "convergence": {
+        "boundary_max_difference": 0.001327797747217141,
+        "predeclared_tolerance": 0.010622381977736949,
+        "passed": true,
+        "formal_metrics_qualified": false
+      },
+      "measured_extent": [
+        1.00912628788501,
+        0.5789198177866637,
+        0.43817325658164913
+      ],
+      "formal_metrics_qualified": false
+    },
+    {
+      "sample_id": "scene-0064_t000637",
+      "method": "hunyuan21",
+      "state_sha256": "172da1fc72101edfa4c6b5861c8a0e74eb16da008d230bcf26ffea15834ba3ca",
+      "status": "measured_pending_cross_backend_review",
+      "fixture_check": null,
+      "convergence": {
+        "boundary_max_difference": 0.0023400226375088207,
+        "predeclared_tolerance": 0.018720181100070475,
+        "passed": true,
+        "formal_metrics_qualified": false
+      },
+      "measured_extent": [
+        1.9936992871575052,
+        0.9102688059909267,
+        0.711366881802678
+      ],
+      "formal_metrics_qualified": false
+    }
+  ],
+  "formal_metrics_enabled": false,
+  "limitations": [
+    "Two real mesh outputs and one analytic mesh fixture do not validate Gaussian measurement or all assets.",
+    "Alpha-support extent is not a watertight ground-truth surface.",
+    "Known-length conditioning is not absolute-scale recovery.",
+    "The real development object has a truncated source reference and is not eligible for formal source-reference metrics.",
+    "Original v2 fixture converged but failed its analytic dimensions; v3 corrects stale Blender transforms.",
+    "Threshold sensitivity, Gaussian rasterizer agreement and reference-centre interpretation remain unqualified."
+  ]
+}

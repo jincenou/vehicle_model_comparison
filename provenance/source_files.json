@@ -595,6 +595,34 @@
       "original_sha256": "93d850ddd11900ab0002c7aea90a0e400ff0d6031d28cf7c48363a337ea654a3",
       "published_sha256": "93d850ddd11900ab0002c7aea90a0e400ff0d6031d28cf7c48363a337ea654a3",
       "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/alpha_extent_measurement.py",
+      "published": "evaluation/alpha_extent_measurement.py",
+      "original_sha256": "7fe2914067b3d67ea38849f9bb0ca340b190cc6f767888ff96eace8da384364e",
+      "published_sha256": "7fe2914067b3d67ea38849f9bb0ca340b190cc6f767888ff96eace8da384364e",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_alpha_extent_measurement.py",
+      "published": "evaluation/test_alpha_extent_measurement.py",
+      "original_sha256": "5edc1f20a3c8f42fc1c108d5cbf95167de3a757a749d9ba007ee0c0386c37030",
+      "published_sha256": "5edc1f20a3c8f42fc1c108d5cbf95167de3a757a749d9ba007ee0c0386c37030",
+      "changes": "none"
+    },
+    {
+      "source": "scripts/render_calibration_alpha_pilot.py",
+      "published": "research_snapshot/scripts/render_calibration_alpha_pilot.py",
+      "original_sha256": "ecb0d875a0f02c9edef9dba37e91b89919493726051d95f93a837101f9134fc9",
+      "published_sha256": "ecb0d875a0f02c9edef9dba37e91b89919493726051d95f93a837101f9134fc9",
+      "changes": "none"
+    },
+    {
+      "source": "scripts/dispatch_calibration_alpha_gpu_pilot.py",
+      "published": "research_snapshot/scripts/dispatch_calibration_alpha_gpu_pilot.py",
+      "original_sha256": "6527f268531a3878fe489156857643f891a04c7676dd33e877f8ca59cd9192d3",
+      "published_sha256": "2cee7b45381051fb068974bb7e762b6571bf7bd52a8c55006790e5be4ea3ab6f",
+      "changes": "Deployment environment root parameterized through RIGID_CONDA_ROOT"
     }
   ]
 }
