@@ -54,6 +54,10 @@ The distance is not squared. The common threshold tau has not been frozen. Candi
 
 nuScenes boxes and sparse LiDAR are not complete watertight surface ground truth. Gaussian centres are not surface samples. Until reference surfaces and native-representation surface adapters are independently validated, report these metrics as unavailable. Do not silently replace the geometry protocol with box overlap or Gaussian-centre distance.
 
+## Legacy size diagnostics
+
+Width/height errors and Box extent IoU are retained separately from physical reconstruction metrics. With `s = L_ref / L_pred`, width error is `100 * abs(s * W_pred / W_ref - 1)`; height is analogous. Box extent IoU uses the intersection `prod(min(s * pred_extent, ref_extent))` and the usual volume union, assuming identical centres and semantic orientation. These are length-normalized proportion diagnostics, not absolute scale recovery or surface IoU. Legacy Gaussian-centre extents used the .005/.995 quantiles; cross-representation comparison remains disabled until a shared qualified extent adapter exists. They are specified in the metric plan but not implemented in the released numerical core.
+
 ## Reporting
 
 Report requested, generated, reload-qualified, reference-qualified, and metric-qualified counts separately, with explicit failure reasons. Preserve degenerate valid output scores when the metric is defined. Do not replace missing values with zero or discard low-quality predictions after looking at scores. Report the paired subset and per-method coverage alongside aggregate numbers. AOR is outside the present metric scope.

@@ -43,7 +43,7 @@ Source pins recorded by this experiment include:
 - Hunyuan3D 2.1: `82920d643c0dc2f7bfd7255f45f62d386edfe60c`
 - ReconViaGen v0.2: `f6720923260927333e22761fa722144d214733d9`
 - Asset Harvester: `4e87f859f373cd468c24aca78ebfdacb45d99f33`
-- Street Gaussians runtime base: `0924b0c4e22e35c2c16673c48c14e50897a10610`
+- Historical standalone Street Gaussians checkout: `0924b0c4e22e35c2c16673c48c14e50897a10610`. This is **not** the implementation used for the frozen nuScenes100 StreetGS baseline. That baseline runs DriveStudio `configs/streetgs.yaml`; its checked config SHA-256 is `194c6b2890b7514a04fa01192d66f58c4f5fbc353041d6ddb6a0003130557cd5`. A complete immutable DriveStudio source/patch inventory is still required for external replay.
 
 A source revision does not capture uncommitted local patches. The release does not include complete upstream working-tree patches for every scene method, so their historical replay remains incomplete. Original TRELLIS's legacy loader is also a separate local dependency. Do not claim stock upstream reproduces these results without checking that dependency.
 
@@ -55,6 +55,7 @@ Read the relevant scripts before running them. The snapshot keeps historical nam
 |---|---|
 | Single real RGBA staging | `scripts/stage_vehicle432_image_inputs.py`, `scripts/stage_rigid111_real_inputs.py` |
 | Real multi-view staging | `scripts/prepare_recon02_real_multiview.py`, `scripts/stage_recon02_rigid111_real_views.py` |
+| Frozen StreetGS baseline | `scripts/run_streetgs_drivestudio_nusc_queue.py` (existing 72 scenes), then `scripts/run_nuscenes100_expansion_queue.py` (additional 28 scenes) |
 | Scene conversion / training | `scripts/prepare_nuscenes100_drivestudio.py`, `scripts/run_nuscenes100_expansion_queue.py` |
 | Original TRELLIS | `model_preparation/20261109_2100_CST/scripts/run_trellis_original_object.py` |
 | TRELLIS.2 | `model_preparation/20261109_2100_CST/scripts/run_trellis2_object.py` |
@@ -62,6 +63,8 @@ Read the relevant scripts before running them. The snapshot keeps historical nam
 | ReconViaGen | `model_preparation/20261109_2100_CST/scripts/run_recon02_frozen_object.py` |
 | AH | `model_preparation/20261109_2100_CST/scripts/run_ah_rigid111_object.py` |
 | Scene actor rendering | `scripts/extract_omnire_native_actor.py`, `scripts/extract_streetgs_native_actor.py`, `scripts/render_splatad_native_actor.py` |
+
+The StreetGS nuScenes controller explicitly overrides the upstream config with `dataset=nuscenes/6cams`, `data.pixel_source.load_smpl=false` and `data.pixel_source.test_image_stride=0`. It trains 30,000 iterations after the 100-step native pilot. The upstream YAML default dataset name must not be mistaken for the actual overridden nuScenes input. Historical `run_streetgs_stage_queue.py` and `extract_streetgs_native_actor.py` refer to the older standalone path; do not use them as the frozen DriveStudio baseline. Its common-camera rendering uses `render_drivestudio_common_camera_vehicle.py`.
 
 For example, **only after** supplying the expected source directory, weights, manifest, environment and output root:
 

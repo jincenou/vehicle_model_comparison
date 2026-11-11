@@ -2,7 +2,7 @@
 
 本仓库整理刚体资产实验的代码、冻结名单及评测规范。范围为 **100 个已冻结 nuScenes 场景中的 500 个资产：432 个车辆资产 + 68 个非车辆资产**，涵盖现有分类体系中的 11 类。
 
-对比方法为：现有 pipeline、Asset Harvester、原版 TRELLIS、TRELLIS.2、Hunyuan3D 2.1、ReconViaGen v0.2、SplatAD、OmniRe、Street Gaussians。人体任务不属于本仓库的实验范围。
+对比方法为：现有 pipeline、Asset Harvester、原版 TRELLIS、TRELLIS.2、Hunyuan3D 2.1、ReconViaGen v0.2、SplatAD、OmniRe、Street Gaussians（DriveStudio 实现）。人体任务不属于本仓库的实验范围。
 
 ## 当前发布内容
 

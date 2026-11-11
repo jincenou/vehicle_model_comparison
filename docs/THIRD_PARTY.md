@@ -8,7 +8,7 @@ This repository contains comparison orchestration and evaluation utilities. Down
 - [TRELLIS.2](https://github.com/microsoft/TRELLIS.2): native image-to-3D generation, rendering and export.
 - [Hunyuan3D 2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1): shape and texture pipelines.
 - ReconViaGen v0.2, SplatAD and OmniRe: native model implementations are external dependencies; resolve their exact original provenance before reproducing a run.
-- [Street Gaussians](https://github.com/zju3dv/street_gaussians): native scene reconstruction.
+- [Street Gaussians](https://github.com/zju3dv/street_gaussians): original method attribution. The frozen benchmark uses its **[DriveStudio implementation](https://github.com/ziyc/drivestudio)**, not the standalone checkout; the historical standalone scripts remain explicitly labeled as such in the reproduction guide.
 - NumPy, SciPy, Pillow and scikit-image: CPU numerical/image utilities.
 - PyTorch, native Gaussian rasterizers, CUDA extensions, Blender, feature encoders and auxiliary networks: optional model/evaluation runtime dependencies.
 

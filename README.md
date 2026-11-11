@@ -37,7 +37,7 @@ flowchart LR
 | `recon02` | ReconViaGen v0.2 | Available eligible **real multi-view images**, no FLUX input; native Gaussian output |
 | `splatad` | SplatAD | Scene reconstruction with recorded native observations; native actor rendering |
 | `omnire` | OmniRe | Scene reconstruction with recorded native observations; native actor rendering |
-| `streetgs` | Street Gaussians | Scene reconstruction with recorded native observations; native actor rendering |
+| `streetgs` | Street Gaussians (DriveStudio implementation) | Frozen nuScenes scene inputs; native DriveStudio actor rendering |
 
 **The methods do not have identical supervision.** External image-based methods reuse the pipeline's real source imagery/masks; ReconViaGen uses the available eligible real views. Scene methods consume additional observations and method-specific scene information. The existing `ours` cohort records **364 `flux_plus_real` and 136 `flux_only` assets**. These existing results are not an equal-real-input ablation. Input regimes must be disclosed in any comparison.
 

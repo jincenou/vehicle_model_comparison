@@ -464,6 +464,13 @@
       "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
     },
     {
+      "source": "scripts/run_streetgs_drivestudio_nusc_queue.py",
+      "published": "research_snapshot/scripts/run_streetgs_drivestudio_nusc_queue.py",
+      "original_sha256": "ec08242537065bd9b8a5f3c57f6a952c4752d246fed58901f76368d0bcc37852",
+      "published_sha256": "ec08242537065bd9b8a5f3c57f6a952c4752d246fed58901f76368d0bcc37852",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
       "source": "scripts/run_streetgs_stage_queue.py",
       "published": "research_snapshot/scripts/run_streetgs_stage_queue.py",
       "original_sha256": "2779a7b731b99d6e39c9c14eb54ae7deb8d0ca4531fd6d9cb6ebc057c34a5a62",
