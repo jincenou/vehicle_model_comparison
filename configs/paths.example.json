@@ -1,0 +1,10 @@
+{
+  "RIGID_WORKSPACE": "/opt/rigid-benchmark/workspace",
+  "RIGID_ASSETBENCH": "/opt/rigid-benchmark/assetbench",
+  "RIGID_DRIVESTUDIO": "/opt/rigid-benchmark/drivestudio",
+  "RIGID_CONDA_ROOT": "/opt/conda",
+  "RIGID_DATA_ROOT": "/data",
+  "RIGID_PROJECT_ROOT": "/opt/rigid-benchmark/project",
+  "RIGID_HOME": "/opt/rigid-benchmark/home",
+  "RIGID_EXTERNAL_ROOT": "/opt/rigid-benchmark/external"
+}

@@ -1,0 +1,271 @@
+{
+  "scope": "Public metric specification; not an execution authorization",
+  "metrics": [
+    {
+      "metric": "CD",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "geometry",
+      "settings": {
+        "formula": "0.5*(mean_nn_euclidean_pred_to_ref + mean_nn_euclidean_ref_to_pred)",
+        "unit": "m",
+        "distance_power": 1,
+        "reduction": "bidirectional_half_mean",
+        "samples_per_surface_candidate": 100000,
+        "sampling_seed_candidate": 42,
+        "blocked_reason": "no_qualified_reference_surface_and_no_validated_gaussian_surface_adapter"
+      }
+    },
+    {
+      "metric": "F1_at_tau",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "geometry",
+      "settings": {
+        "formula": "2*precision*recall/(precision+recall); zero if denominator zero",
+        "threshold_comparison": "<",
+        "tau": null,
+        "unit": "fraction_0_1",
+        "blocked_reason": "surface_reference_and_threshold_validation_pending"
+      }
+    },
+    {
+      "metric": "surface_Recall_at_tau",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "geometry",
+      "settings": {
+        "formula": "mean_ref_points(nearest_distance_to_prediction < tau)",
+        "tau": null,
+        "unit": "fraction_0_1",
+        "blocked_reason": "surface_reference_and_threshold_validation_pending"
+      }
+    },
+    {
+      "metric": "source_IoU",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "source_image",
+      "settings": {
+        "formula": "intersection/union",
+        "canvas": "raw_source",
+        "mask_rule": "uint8_alpha > 127",
+        "empty_prediction_nonempty_reference": 0,
+        "requires": [
+          "camera_identity",
+          "asset_registration",
+          "occlusion_eligibility"
+        ]
+      }
+    },
+    {
+      "metric": "source_LPIPS",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "source_image",
+      "settings": {
+        "net": "alex",
+        "version": "0.1",
+        "rgb_range": [
+          -1,
+          1
+        ],
+        "canvas": "source_fixed_roi512_v1",
+        "spatial": false,
+        "requires": [
+          "camera_identity",
+          "asset_registration",
+          "occlusion_eligibility",
+          "implementation_acceptance"
+        ]
+      }
+    },
+    {
+      "metric": "real_heldout_LPIPS",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "heldout_image",
+      "settings": {
+        "algorithm_same_as": "source_LPIPS",
+        "vehicle_eligible_count": 0,
+        "blocked_reason": "No qualified independent vehicle holdout; nonvehicle holdout not certified",
+        "nonvehicle_eligible_count": null,
+        "nonvehicle_eligibility": "not_qualified"
+      }
+    },
+    {
+      "metric": "CLIP_I16",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "orbit_diagnostic",
+      "settings": {
+        "encoder": "OpenAI CLIP ViT-B/32",
+        "features": "L2 normalized global image embedding",
+        "formula": "mean(cos(source, render_v) for all 16 views)",
+        "preprocess": "official CLIP224 after protocol512",
+        "best_view_selection": false,
+        "requires": [
+          "common_orbit",
+          "registration",
+          "feature_replay"
+        ]
+      }
+    },
+    {
+      "metric": "DINO_I16",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "orbit_diagnostic",
+      "settings": {
+        "encoder": "vit_huge_plus_patch16_dinov3_qkvb.lvd1689m",
+        "features": "final CLS then L2",
+        "formula": "mean(cos(source, render_v) for all 16 views)",
+        "preprocess": "RGB512 /255; ImageNet mean/std; legacy rope rounding",
+        "best_view_selection": false,
+        "requires": [
+          "common_orbit",
+          "registration",
+          "feature_replay"
+        ]
+      }
+    },
+    {
+      "metric": "ED_R",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "source_diagnostic",
+      "settings": {
+        "encoder": "same DINOv3 as DINO_I16",
+        "features": "foreground patch mean excluding prefix tokens then L2",
+        "formula": "1-cos(matched_source_pred,source_ref)",
+        "mask_projection": "nearest to patch grid",
+        "canvas": "source_fixed_roi512_v1",
+        "empty_foreground": "unavailable_with_reason",
+        "is_edge_distance": false
+      }
+    },
+    {
+      "metric": "PSNR",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "source_image",
+      "settings": {
+        "formula": "10*log10(1/mean((prediction-reference)**2))",
+        "rgb_range": [
+          0,
+          1
+        ],
+        "colour": "display_sRGB",
+        "arithmetic": "float64",
+        "primary_canvas": "source_fixed_roi512_v1",
+        "auxiliary_canvas": "raw_source_white",
+        "perfect_match": {
+          "value": null,
+          "status": "positive_infinity",
+          "perfect_match": true,
+          "mse": 0
+        }
+      }
+    },
+    {
+      "metric": "SSIM",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "source_image",
+      "settings": {
+        "implementation": "skimage.metrics.structural_similarity",
+        "data_range": 1,
+        "channel_axis": -1,
+        "gaussian_weights": true,
+        "sigma": 1.5,
+        "win_size": 11,
+        "use_sample_covariance": false,
+        "K1": 0.01,
+        "K2": 0.03,
+        "canvas": "source_fixed_roi512_v1"
+      }
+    },
+    {
+      "metric": "LPIPS",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "source_image",
+      "settings": {
+        "alias_of": "source_LPIPS",
+        "scope_required": true,
+        "legacy_values_must_not_fill_new_column": true
+      }
+    },
+    {
+      "metric": "silhouette_IoU",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "source_image",
+      "settings": {
+        "alias_of": "source_IoU",
+        "scope_required": true,
+        "legacy_values_must_not_fill_new_column": true
+      }
+    },
+    {
+      "metric": "width_height_error",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "legacy_size_diagnostic",
+      "settings": {
+        "formula": "s=Lref/Lpred; W_APE=100*abs(s*Wpred/Wref-1); H_APE analogous",
+        "legacy_extent": "Gaussian-center quantiles .005/.995 in validated semantic axes",
+        "unit": "percent",
+        "cross_representation_status": "blocked_until_common_surface_extent_adapter",
+        "absolute_scale_accuracy": false
+      }
+    },
+    {
+      "metric": "Box_extent_IoU",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "legacy_size_diagnostic",
+      "settings": {
+        "formula": "prod(min(s*pred_extent,ref_extent))/(prod(s*pred_extent)+prod(ref_extent)-intersection)",
+        "assumption": "same centre and semantic orientation; length-normalized",
+        "legacy_extent": "Gaussian-center quantiles .005/.995",
+        "cross_representation_status": "blocked_until_common_surface_extent_adapter",
+        "is_surface_iou": false
+      }
+    },
+    {
+      "metric": "FID",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "distribution_diagnostic",
+      "settings": {
+        "encoder": "pytorch-fid Inception pool3 2048",
+        "feature_dimension": 2048,
+        "statistics": "float64; covariance denominator n-1; validated PSD/low-rank Frechet",
+        "scope": "group_only",
+        "variants": [
+          "matched_source_n_vs_n",
+          "orbit_source_n_vs_render_16n_appendix"
+        ],
+        "minimum_n_for_covariance": 2,
+        "minimum_n_is_not_reliability_guarantee": true
+      }
+    },
+    {
+      "metric": "FD_DINO",
+      "enabled": false,
+      "status": "research_specified_execution_not_qualified",
+      "family": "distribution_diagnostic",
+      "settings": {
+        "encoder": "same DINOv3 as DINO_I16",
+        "features": "final CLS then L2",
+        "statistics": "same group Frechet formula as FID",
+        "scope": "group_only",
+        "variants": [
+          "matched_source_n_vs_n",
+          "orbit_source_n_vs_render_16n_appendix"
+        ]
+      }
+    }
+  ]
+}

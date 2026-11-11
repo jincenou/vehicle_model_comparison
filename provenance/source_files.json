@@ -1,0 +1,537 @@
+{
+  "scope": "Publication source provenance, not a successful end-to-end reproduction certificate",
+  "files": [
+    {
+      "source": "evaluation_nuscenes_v1/scripts/asset_orientation_contract.py",
+      "published": "evaluation/asset_orientation_contract.py",
+      "original_sha256": "b2485f4f2969f98d2ec2b3283052b18935986885afd5367da21983b3ed7096eb",
+      "published_sha256": "b2485f4f2969f98d2ec2b3283052b18935986885afd5367da21983b3ed7096eb",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_asset_orientation_contract.py",
+      "published": "evaluation/test_asset_orientation_contract.py",
+      "original_sha256": "d5727a49f5a8a3704c914797e4818ea7c4f80205fe54b1e66f4f7e01b8cfc121",
+      "published_sha256": "d5727a49f5a8a3704c914797e4818ea7c4f80205fe54b1e66f4f7e01b8cfc121",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/source_reference_geometry.py",
+      "published": "evaluation/source_reference_geometry.py",
+      "original_sha256": "fe828342af1edb6f3cc0a99b6c8a0da0162edd3218b7af2dcc17c4d423abdcd7",
+      "published_sha256": "fe828342af1edb6f3cc0a99b6c8a0da0162edd3218b7af2dcc17c4d423abdcd7",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_source_reference_geometry.py",
+      "published": "evaluation/test_source_reference_geometry.py",
+      "original_sha256": "fa1261e8d304039ad2773ca90fcfccbf47dfcd32f565b151bcac60bcf0a50fc0",
+      "published_sha256": "fa1261e8d304039ad2773ca90fcfccbf47dfcd32f565b151bcac60bcf0a50fc0",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/reference_camera_rig.py",
+      "published": "evaluation/reference_camera_rig.py",
+      "original_sha256": "cd8c0f5cc53dfe860bfd0f60da6132a82764608df3d356157fe60b844993527e",
+      "published_sha256": "cd8c0f5cc53dfe860bfd0f60da6132a82764608df3d356157fe60b844993527e",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_reference_camera_rig.py",
+      "published": "evaluation/test_reference_camera_rig.py",
+      "original_sha256": "eff945912bf72c2bdfb3cedd1a0d89f20a7c6b952e06a3cbd902d07fee0a7259",
+      "published_sha256": "eff945912bf72c2bdfb3cedd1a0d89f20a7c6b952e06a3cbd902d07fee0a7259",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/source_render_gate.py",
+      "published": "evaluation/source_render_gate.py",
+      "original_sha256": "1bc049c681bfdd5b704520a7d3fc8edbca806526cba0d38e90da92dd8e286165",
+      "published_sha256": "1bc049c681bfdd5b704520a7d3fc8edbca806526cba0d38e90da92dd8e286165",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_source_render_gate.py",
+      "published": "evaluation/test_source_render_gate.py",
+      "original_sha256": "db08a5b0cb3928e1952ae0923078d43505064b9f457971adee9c6787879b467a",
+      "published_sha256": "db08a5b0cb3928e1952ae0923078d43505064b9f457971adee9c6787879b467a",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/source_metric_core.py",
+      "published": "evaluation/source_metric_core.py",
+      "original_sha256": "203338a21346d6f032f76d5b22a8346ed414048955efb08daf93076ca2d9ef7e",
+      "published_sha256": "203338a21346d6f032f76d5b22a8346ed414048955efb08daf93076ca2d9ef7e",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_source_metric_core.py",
+      "published": "evaluation/test_source_metric_core.py",
+      "original_sha256": "1c96a16beaf29af93c4de015a6813268e0784ff76459a19e2648660e9f8f1054",
+      "published_sha256": "1c96a16beaf29af93c4de015a6813268e0784ff76459a19e2648660e9f8f1054",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/feature_metric_core.py",
+      "published": "evaluation/feature_metric_core.py",
+      "original_sha256": "049f4b82a44e2c45a28913596ac97e3dbb3b0121ee4d70a17286ab5b13543b36",
+      "published_sha256": "049f4b82a44e2c45a28913596ac97e3dbb3b0121ee4d70a17286ab5b13543b36",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_feature_metric_core.py",
+      "published": "evaluation/test_feature_metric_core.py",
+      "original_sha256": "47bdc7fe9f7bfa0e63daa96bd0200d72f5fb2b804b04931fee778dec31d4e707",
+      "published_sha256": "47bdc7fe9f7bfa0e63daa96bd0200d72f5fb2b804b04931fee778dec31d4e707",
+      "changes": "none"
+    },
+    {
+      "source": "adapters/nuscenes_benchmark.py",
+      "published": "research_snapshot/adapters/nuscenes_benchmark.py",
+      "original_sha256": "1210316e9092a8f194de03275fee6faafcc6863c33c72db436162aa3e45bdeb7",
+      "published_sha256": "1210316e9092a8f194de03275fee6faafcc6863c33c72db436162aa3e45bdeb7",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "adapters/nuscenes_train_only.py",
+      "published": "research_snapshot/adapters/nuscenes_train_only.py",
+      "original_sha256": "da7bfd37e2851179730ba9f25ce7916714b459100e35aeeb125524b99a4e14ab",
+      "published_sha256": "da7bfd37e2851179730ba9f25ce7916714b459100e35aeeb125524b99a4e14ab",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/dispatch_rigid111_direct.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/dispatch_rigid111_direct.py",
+      "original_sha256": "b3cf7a310084cd402c96ea38be6235e6f9e3ecbfc31fb7da79b614827d464401",
+      "published_sha256": "a505f1565a1cc05068d4db7987610215a1fd32cea1213d6f53fc739fa1a440c1",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/dispatch_rigid68_continuation.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/dispatch_rigid68_continuation.py",
+      "original_sha256": "f855a9c930b698ea80ccc5becdd27c014685a94ed5d35483625a916cfdfad13e",
+      "published_sha256": "f855a9c930b698ea80ccc5becdd27c014685a94ed5d35483625a916cfdfad13e",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/dispatch_rigid68_trellis2_parallel.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/dispatch_rigid68_trellis2_parallel.py",
+      "original_sha256": "d1fd7edaca20c620c0951fed9eca2d8894204ead6aae220597c1830af42601e0",
+      "published_sha256": "d1fd7edaca20c620c0951fed9eca2d8894204ead6aae220597c1830af42601e0",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/dispatch_trellis2_vehicle432.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/dispatch_trellis2_vehicle432.py",
+      "original_sha256": "04a0a3ea4b31e66b42846a5c6076dfa1fe7fd350ca7c99aeb866397ed1729000",
+      "published_sha256": "d1920aee4ad2d879a2848dc58a0a8881ccd4b13fa272b275bac48e20a42b5c26",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/dispatch_trellis2_vehicle432_eight_gpu.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/dispatch_trellis2_vehicle432_eight_gpu.py",
+      "original_sha256": "09e2435222dfcc6500dd2e2a2b7183d03b78331b32374275afe2080a7add245a",
+      "published_sha256": "09e2435222dfcc6500dd2e2a2b7183d03b78331b32374275afe2080a7add245a",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/dispatch_trellis2_vehicle432_supplement.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/dispatch_trellis2_vehicle432_supplement.py",
+      "original_sha256": "78232aab06c3c69c6016910427f5a884ae56e02fa3d0c13dd53b6a5e23760b31",
+      "published_sha256": "78232aab06c3c69c6016910427f5a884ae56e02fa3d0c13dd53b6a5e23760b31",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/download_trellis2_modelscope.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/download_trellis2_modelscope.py",
+      "original_sha256": "3253795cdd75950df11fedf27336c1665a2fccc2c366d971995c9e3df0895f60",
+      "published_sha256": "3253795cdd75950df11fedf27336c1665a2fccc2c366d971995c9e3df0895f60",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/prepare_auxiliary.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/prepare_auxiliary.py",
+      "original_sha256": "ce4f968db545cb7609c37205483f1bb2e2cf3170c6e03d64851ebc3364c90434",
+      "published_sha256": "00d86bb5a4f03b0ac7f2281cb51276bcea1d23df371989b0e09a894bde22f4d0",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/prepare_environment.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/prepare_environment.py",
+      "original_sha256": "875b80c9fe622fab80acc37f9376d2574c742d5b3d4a0f6ae8cadd2d7a20b237",
+      "published_sha256": "8b20067dd4e17dd727e1ce55fa377cf0edc176eddf720ee908dc6dd481edd6a2",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/prepare_trellis2_environment.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/prepare_trellis2_environment.py",
+      "original_sha256": "34af320632997893cb83632199590313ac4fe0d9b6f2ca98c54eafd60e860a5f",
+      "published_sha256": "9d0c22fca23b7af2b8f25ad45f19fa2c44aedfe513d7c22ecae7447d3203f5e4",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/prepare_trellis2_offline_cache.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/prepare_trellis2_offline_cache.py",
+      "original_sha256": "697f6e517fb4cf59c65101a7a7fdf185ab40ad21d21c35d5eca60b90eed9ceba",
+      "published_sha256": "697f6e517fb4cf59c65101a7a7fdf185ab40ad21d21c35d5eca60b90eed9ceba",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/prepare_weights.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/prepare_weights.py",
+      "original_sha256": "160b8714b1459b9a3dffde650fe4fb657b9830923284073c82bc31a3509bb612",
+      "published_sha256": "86713c28d1e151787cf28d348bf91828e7c462686eed94ff7803f9239a1ab000",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/recon02_serialization.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/recon02_serialization.py",
+      "original_sha256": "e3fec3fadd341d7b255f12625c1e3bfa666f357d4c49f5ddd88d0c20f8afff15",
+      "published_sha256": "e3fec3fadd341d7b255f12625c1e3bfa666f357d4c49f5ddd88d0c20f8afff15",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/reload_ah_rigid111_object.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/reload_ah_rigid111_object.py",
+      "original_sha256": "b143b697b5d9e24a23ffb79daf03aff5d71d133f278a53ad5b26e96a5074b04d",
+      "published_sha256": "6f89ddaf6f72b124c0d45c7aba8482dddbdff927fd5c626b80f299a5ba3f5718",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/reload_recon02_frozen_object.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/reload_recon02_frozen_object.py",
+      "original_sha256": "097319bbe36f1993b72ed4758620c8f15b19ca23ec6bbe4bb9ea87b556e1d893",
+      "published_sha256": "097319bbe36f1993b72ed4758620c8f15b19ca23ec6bbe4bb9ea87b556e1d893",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/reload_recon02_frozen_object_rigid111.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/reload_recon02_frozen_object_rigid111.py",
+      "original_sha256": "b845641c34644f1dd126490915699c26676d84e2be01118e36f05efd6b19ca59",
+      "published_sha256": "b845641c34644f1dd126490915699c26676d84e2be01118e36f05efd6b19ca59",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/render_hunyuan21_demo_reload.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/render_hunyuan21_demo_reload.py",
+      "original_sha256": "7a76149ad4233897662379118e876d68350f037a3314c3fdb98fdf3d517dc84c",
+      "published_sha256": "7a76149ad4233897662379118e876d68350f037a3314c3fdb98fdf3d517dc84c",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/run_ah_rigid111_object.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/run_ah_rigid111_object.py",
+      "original_sha256": "e8dcd147f73ceb78620129d9abacdcd37293158877078b46d348bcbb492cd399",
+      "published_sha256": "671300b5635e0d50cd8eecec032ab94a9b161e2fe913c6de91b8684f4b872238",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/run_hunyuan21_frozen_object.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/run_hunyuan21_frozen_object.py",
+      "original_sha256": "9754f21bbc0b0a16963278be22d02a4ec73f4fe51c7754cec2ded53389550a00",
+      "published_sha256": "9754f21bbc0b0a16963278be22d02a4ec73f4fe51c7754cec2ded53389550a00",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/run_hunyuan21_frozen_object_rigid111.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/run_hunyuan21_frozen_object_rigid111.py",
+      "original_sha256": "139b81408d57540028a7948d603ba2a6438d09e9cbb27dbb9a91a9c236db1939",
+      "published_sha256": "139b81408d57540028a7948d603ba2a6438d09e9cbb27dbb9a91a9c236db1939",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/run_recon02_frozen_object.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/run_recon02_frozen_object.py",
+      "original_sha256": "bc2ccbaad340d4350773b35d53572e9278af497f4104d679832f792a9621f7c5",
+      "published_sha256": "bc2ccbaad340d4350773b35d53572e9278af497f4104d679832f792a9621f7c5",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/run_recon02_frozen_object_rigid111.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/run_recon02_frozen_object_rigid111.py",
+      "original_sha256": "6e670ccebfdda7299c13411c0995f4df20db34d3a3f988206148395ed79c5bcc",
+      "published_sha256": "6e670ccebfdda7299c13411c0995f4df20db34d3a3f988206148395ed79c5bcc",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/run_trellis2_object.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/run_trellis2_object.py",
+      "original_sha256": "102520e81bca0f2c5d6d1bbe6683712472abee91948835cdc6eb89cb6f186b78",
+      "published_sha256": "102520e81bca0f2c5d6d1bbe6683712472abee91948835cdc6eb89cb6f186b78",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/run_trellis2_object_rigid111.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/run_trellis2_object_rigid111.py",
+      "original_sha256": "30a3de01254b8ac9843d7e30517d2199ce118d5b504df500aab4cf94880801af",
+      "published_sha256": "30a3de01254b8ac9843d7e30517d2199ce118d5b504df500aab4cf94880801af",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/run_trellis_original_object.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/run_trellis_original_object.py",
+      "original_sha256": "23dfa26629e4fb745736006c5a0c0acbabafa6683e74d91744d2987b54e0fa7e",
+      "published_sha256": "60d9c4eff1fe465fcbdf771387b8862434fc3e7148868672934a4d8421ad7cee",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/run_trellis_original_object_rigid111.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/run_trellis_original_object_rigid111.py",
+      "original_sha256": "0bc65dbedbf65894e10b7e89cd2543e5049a8dfa66e84c0cf97f8be44a962257",
+      "published_sha256": "f576b70808d2a13a84a071dc5b5f3ff872f2ed591fcb14dc97cabafffc6f378a",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/test_trellis2_eight_gpu.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/test_trellis2_eight_gpu.py",
+      "original_sha256": "47cf2251b99bba3ccbbdd2ef9d7ce09befba552109f06e5041785374bba2f328",
+      "published_sha256": "47cf2251b99bba3ccbbdd2ef9d7ce09befba552109f06e5041785374bba2f328",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "model_preparation/20261109_2100_CST/scripts/test_trellis2_vehicle432_supplement.py",
+      "published": "research_snapshot/model_preparation/20261109_2100_CST/scripts/test_trellis2_vehicle432_supplement.py",
+      "original_sha256": "46f76e34578903ac66aeddf3228a16b2eeea70713525a1ed9bf4f380775636f5",
+      "published_sha256": "46f76e34578903ac66aeddf3228a16b2eeea70713525a1ed9bf4f380775636f5",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/common_camera_contract.py",
+      "published": "research_snapshot/scripts/common_camera_contract.py",
+      "original_sha256": "47d79a72e57b3482b8739ac8e6e8e6a46471c826015ec8715944e4c5278f85f4",
+      "published_sha256": "47d79a72e57b3482b8739ac8e6e8e6a46471c826015ec8715944e4c5278f85f4",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/export_metric_orientation_contracts.py",
+      "published": "research_snapshot/scripts/export_metric_orientation_contracts.py",
+      "original_sha256": "7f99ee1b77fba55dd872ac25a17fe272cde14b58f0b24cdae164689da7980336",
+      "published_sha256": "7f99ee1b77fba55dd872ac25a17fe272cde14b58f0b24cdae164689da7980336",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/extract_omnire_native_actor.py",
+      "published": "research_snapshot/scripts/extract_omnire_native_actor.py",
+      "original_sha256": "fb67d163d44c9a3c5fcae3e6e18984e7afbb18e219c106af85fcc39b03607da1",
+      "published_sha256": "7ee8d888ee666a4d69ba4ddd6f4ae21b9b129359203ac6c8d1b946ab65ada32e",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/extract_streetgs_native_actor.py",
+      "published": "research_snapshot/scripts/extract_streetgs_native_actor.py",
+      "original_sha256": "a7071c2e57dc221a6fe0fbe119d1f60270dfc434e59b91a4a8605de11ae9d454",
+      "published_sha256": "a7071c2e57dc221a6fe0fbe119d1f60270dfc434e59b91a4a8605de11ae9d454",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/materialize_splatad_train_only_scene.py",
+      "published": "research_snapshot/scripts/materialize_splatad_train_only_scene.py",
+      "original_sha256": "6072924d9e305ca5c58961120553cb13eeeb2aceb3b9bc11c4c28dd663ba3697",
+      "published_sha256": "6072924d9e305ca5c58961120553cb13eeeb2aceb3b9bc11c4c28dd663ba3697",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/materialize_streetgs_train_only.py",
+      "published": "research_snapshot/scripts/materialize_streetgs_train_only.py",
+      "original_sha256": "80b0db249822ab2f0ddf3a56c90e3540b56d6f645631aa419d40d66350ed3bfd",
+      "published_sha256": "80b0db249822ab2f0ddf3a56c90e3540b56d6f645631aa419d40d66350ed3bfd",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/prepare_asset_orientation_inventory.py",
+      "published": "research_snapshot/scripts/prepare_asset_orientation_inventory.py",
+      "original_sha256": "99e71b054902b6758fec9ef1756f7dc2dc83526ba5ef12f96d9ac680e5217864",
+      "published_sha256": "59ca326b6f682bb80e3a665f612d314a361085a251639d10416febf63b4510ad",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/prepare_nuscenes100_drivestudio.py",
+      "published": "research_snapshot/scripts/prepare_nuscenes100_drivestudio.py",
+      "original_sha256": "bbf1fcc5945fff84319282906df7fbda4d9363a01fc5109b2ea3e266a00cde23",
+      "published_sha256": "131c835aa901f8c9fc1dd39c3dc9000ae8c0e51c64eaaa360ac2cce37d95f158",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/prepare_nuscenes_training.py",
+      "published": "research_snapshot/scripts/prepare_nuscenes_training.py",
+      "original_sha256": "9fd6590fc996161420db0c25f4d7728f1cf4592969cedf70e08e080f7f10ee43",
+      "published_sha256": "164d8e6ee48ae258461fb1b2153076ccf7828f0b42b90f38409553d66639a4e9",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/prepare_recon02_real_multiview.py",
+      "published": "research_snapshot/scripts/prepare_recon02_real_multiview.py",
+      "original_sha256": "1d5c728d3d7dfd1eadcfa3a5e0b4514061e3b58122d58be01e4c8c7215c78b53",
+      "published_sha256": "9fc3947c70ac1b433372ea78a60c385bc1984f1cf25a0f28a3119f84547345b3",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/prepare_reference_object_frames.py",
+      "published": "research_snapshot/scripts/prepare_reference_object_frames.py",
+      "original_sha256": "12f6d7be7af79048b74e3d0c9bae6d573c8dc5277b3fd766c81f458ee989205c",
+      "published_sha256": "c874a84a1d23e442163f26b147769cc4418fdcefee4091754a668e9ab114cf0b",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/prepare_streetgs_native_configs.py",
+      "published": "research_snapshot/scripts/prepare_streetgs_native_configs.py",
+      "original_sha256": "2c7080b98edf1a24cfbefab567b9f47143ccacda283e4bef0250ac1cc4f90c96",
+      "published_sha256": "e59d741066d94ebc9b99dbe2b6d331c5fe2ea67e97f98074675a79997ce5dfbb",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/prepare_streetgs_source_splits.py",
+      "published": "research_snapshot/scripts/prepare_streetgs_source_splits.py",
+      "original_sha256": "4f45d61885fb71a7b70b8bd606cf8ae64c9b67ed496934edb64126b51445f2d1",
+      "published_sha256": "57adc6299682b06c0bc1bfbfa18adc306e502637698c2e6a40b40b73108b4bbe",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/render_asset_direction_gs.py",
+      "published": "research_snapshot/scripts/render_asset_direction_gs.py",
+      "original_sha256": "f0c9eb65a3572386e5996ca3616e0ca153a1c0d5deb349a71551fac1fe1881af",
+      "published_sha256": "2c40e0ca6f19f89a87eb016c55203f722c46f89fdddf577d06aa43c54637bb04",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/render_asset_direction_mesh.py",
+      "published": "research_snapshot/scripts/render_asset_direction_mesh.py",
+      "original_sha256": "6ee6a69e6c766ed340337d0fee649bab3b5831806e129f3d6707abe9aaadd20a",
+      "published_sha256": "6ee6a69e6c766ed340337d0fee649bab3b5831806e129f3d6707abe9aaadd20a",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/render_drivestudio_common_camera_vehicle.py",
+      "published": "research_snapshot/scripts/render_drivestudio_common_camera_vehicle.py",
+      "original_sha256": "af277bbfa4eebabd774228829caf42ccba7a81935dd5909bfa05aab1db625646",
+      "published_sha256": "f19d79248e1122fab6b2f7a5e3430c455aa22e163574a6836f8e1bdef344e1ee",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/render_splatad_common_camera_vehicle.py",
+      "published": "research_snapshot/scripts/render_splatad_common_camera_vehicle.py",
+      "original_sha256": "a80e4bc36a5ef7a991f1509c8f016dbda89be4a35cc6f08d4545032f9b81a97d",
+      "published_sha256": "a80e4bc36a5ef7a991f1509c8f016dbda89be4a35cc6f08d4545032f9b81a97d",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/render_splatad_native_actor.py",
+      "published": "research_snapshot/scripts/render_splatad_native_actor.py",
+      "original_sha256": "b9f8a8a5ee72cb66e7e91553cbd451cd701b229a9923e769d7f0117991c0435b",
+      "published_sha256": "b9f8a8a5ee72cb66e7e91553cbd451cd701b229a9923e769d7f0117991c0435b",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/run_nuscenes100_expansion_queue.py",
+      "published": "research_snapshot/scripts/run_nuscenes100_expansion_queue.py",
+      "original_sha256": "a7a97f7927c2762f57c8779f260b712d3ffd8a81ae6cea4cd46c7cfbb2d4d106",
+      "published_sha256": "a7a97f7927c2762f57c8779f260b712d3ffd8a81ae6cea4cd46c7cfbb2d4d106",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/run_omnire_human_legacy_no_smpl_queue.py",
+      "published": "research_snapshot/scripts/run_omnire_human_legacy_no_smpl_queue.py",
+      "original_sha256": "0c428a587eb47ca13fc907285105094ff9ca883aa3fe036a8f7746eff9bc26f8",
+      "published_sha256": "12fdfaadde9fa721f61c80faaa2e3d47ac1df0c2d16db9563a1a1150962d6ddf",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/run_omnire_legacy_no_smpl_queue.py",
+      "published": "research_snapshot/scripts/run_omnire_legacy_no_smpl_queue.py",
+      "original_sha256": "b4407c19b645dea49921d511f0b62ce42ce1472c835db1e114a534343ed0b7f0",
+      "published_sha256": "d3416dc7a30db215cf33bb69e151ce1f729af06e50f959ba822d58ea7ebdbd25",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/run_omnire_reconstruction_only_queue.py",
+      "published": "research_snapshot/scripts/run_omnire_reconstruction_only_queue.py",
+      "original_sha256": "11049cd020466d3063489d2078bca3ecc07079664839d62801109a1cf7cd5179",
+      "published_sha256": "11049cd020466d3063489d2078bca3ecc07079664839d62801109a1cf7cd5179",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/run_splatad_human_train_only_queue.py",
+      "published": "research_snapshot/scripts/run_splatad_human_train_only_queue.py",
+      "original_sha256": "9944c8e302050cb25f3051227ab0fdaf560f0b656907226a6b5659d7b262634c",
+      "published_sha256": "3304dc64b246e2df183782a16825dae39b63d5f2fa5095ccfd4c9e398c539953",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/run_splatad_reconstruction_only_queue.py",
+      "published": "research_snapshot/scripts/run_splatad_reconstruction_only_queue.py",
+      "original_sha256": "766325ac9ff268b0d6e656e6aadd0a55ea6ccdf767286c688fe96feda5805e77",
+      "published_sha256": "766325ac9ff268b0d6e656e6aadd0a55ea6ccdf767286c688fe96feda5805e77",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/run_streetgs_stage_queue.py",
+      "published": "research_snapshot/scripts/run_streetgs_stage_queue.py",
+      "original_sha256": "2779a7b731b99d6e39c9c14eb54ae7deb8d0ca4531fd6d9cb6ebc057c34a5a62",
+      "published_sha256": "2779a7b731b99d6e39c9c14eb54ae7deb8d0ca4531fd6d9cb6ebc057c34a5a62",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/score_native_actor_source.py",
+      "published": "research_snapshot/scripts/score_native_actor_source.py",
+      "original_sha256": "f6873de465151c404a534a75b9f7a5637f2cbb0e6f78fd51377df19c853dc9b2",
+      "published_sha256": "f6873de465151c404a534a75b9f7a5637f2cbb0e6f78fd51377df19c853dc9b2",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/stage_recon02_rigid111_real_views.py",
+      "published": "research_snapshot/scripts/stage_recon02_rigid111_real_views.py",
+      "original_sha256": "2f4a184a84ba807b5b44474242a5f8f2bf38b062424b157a4d7860a75dce9e6a",
+      "published_sha256": "b9c9244f58684fa8cda478f271434ca618203015ddd3de5f466df7e5fcdf7582",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/stage_rigid111_real_inputs.py",
+      "published": "research_snapshot/scripts/stage_rigid111_real_inputs.py",
+      "original_sha256": "83f9345d7852847eaff6a3b0bb98b21be0dea1585fd554857c03b19b9a6b2ce9",
+      "published_sha256": "2d0042128ea823e099cae22226116f32b56f59213ee5b36c07a05f680b88fa2f",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/stage_streetgs_train_only.py",
+      "published": "research_snapshot/scripts/stage_streetgs_train_only.py",
+      "original_sha256": "b60e320eb21293b0ecb80e77b73c84ff6dbf1b2597bd7e241eee3990ea971461",
+      "published_sha256": "b60e320eb21293b0ecb80e77b73c84ff6dbf1b2597bd7e241eee3990ea971461",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/stage_vehicle432_image_inputs.py",
+      "published": "research_snapshot/scripts/stage_vehicle432_image_inputs.py",
+      "original_sha256": "4f1c7926dce8214ed3626bab9bcdf5f68688e123c6070825a37220fb18a36dcb",
+      "published_sha256": "4f1c7926dce8214ed3626bab9bcdf5f68688e123c6070825a37220fb18a36dcb",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/train_splatad_human_train_only_scene.py",
+      "published": "research_snapshot/scripts/train_splatad_human_train_only_scene.py",
+      "original_sha256": "c577729aaf95314d65b67121c026dd7747aa302bef3d9b259180e1150fae690a",
+      "published_sha256": "c577729aaf95314d65b67121c026dd7747aa302bef3d9b259180e1150fae690a",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/train_splatad_nuscenes100_expansion.py",
+      "published": "research_snapshot/scripts/train_splatad_nuscenes100_expansion.py",
+      "original_sha256": "e3ec06d535eb0263989e3882a9b77a479722026bc64243dea547be6e1ca9dc3c",
+      "published_sha256": "e3ec06d535eb0263989e3882a9b77a479722026bc64243dea547be6e1ca9dc3c",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/train_splatad_reviewed_scene.py",
+      "published": "research_snapshot/scripts/train_splatad_reviewed_scene.py",
+      "original_sha256": "615985d0280d80af198cb39e8159878ad14b9e00083067daedf1bd4407453faf",
+      "published_sha256": "615985d0280d80af198cb39e8159878ad14b9e00083067daedf1bd4407453faf",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    },
+    {
+      "source": "scripts/validate_nuscenes_candidate_cameras.py",
+      "published": "research_snapshot/scripts/validate_nuscenes_candidate_cameras.py",
+      "original_sha256": "fb4e4a00b8143fa523945ec5b616732aeba683b8b717699b205f64b60372ebd1",
+      "published_sha256": "9b809334496cc33a5088c88537541f0b9a0892474f0e056865038d09a0036448",
+      "changes": "literal deployment paths replaced by RIGID_* environment roots; comments sanitized; model logic unchanged"
+    }
+  ]
+}
