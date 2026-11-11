@@ -546,6 +546,34 @@
       "original_sha256": "add1df24457498ec75b234d7f34ece18635b3694de391207c3b2cfb84ceb5bc1",
       "published_sha256": "add1df24457498ec75b234d7f34ece18635b3694de391207c3b2cfb84ceb5bc1",
       "changes": "none"
+    },
+    {
+      "source": "scripts/prepare_rigid500_evaluation.py",
+      "published": "research_snapshot/scripts/prepare_rigid500_evaluation.py",
+      "original_sha256": "870e9395b577a7a39bc4132c1b08fbe19da1ef5a8bd5eee957c5f3c05c428148",
+      "published_sha256": "870e9395b577a7a39bc4132c1b08fbe19da1ef5a8bd5eee957c5f3c05c428148",
+      "changes": "none"
+    },
+    {
+      "source": "scripts/assemble_source_reference_acceptance.py",
+      "published": "research_snapshot/scripts/assemble_source_reference_acceptance.py",
+      "original_sha256": "13c566c8988c1cb106b2417cf3565cbf34f2efbca400403173b3a8095e5f8440",
+      "published_sha256": "13c566c8988c1cb106b2417cf3565cbf34f2efbca400403173b3a8095e5f8440",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/preparation_cache.py",
+      "published": "evaluation/preparation_cache.py",
+      "original_sha256": "7c2d7f10c91f363c4d9b7e99e07086fb0b94c42a156acb6926478c117e2fdafd",
+      "published_sha256": "7c2d7f10c91f363c4d9b7e99e07086fb0b94c42a156acb6926478c117e2fdafd",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_preparation_cache.py",
+      "published": "evaluation/test_preparation_cache.py",
+      "original_sha256": "3010728070055ed328f5842c1416818963486085752a9ff16240df7d9597f855",
+      "published_sha256": "3010728070055ed328f5842c1416818963486085752a9ff16240df7d9597f855",
+      "changes": "none"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 Research code for comparing **native 3D rigid assets** on a frozen cohort drawn from **100 nuScenes scenes**. The cohort contains **500 assets: 432 vehicles and 68 non-vehicle assets**, evaluated across nine methods without converting every representation into a common surrogate model.
 
-[中文说明](README_zh-CN.md) · [Data & inputs](docs/DATA.md) · [Reproduction](docs/REPRODUCING.md) · [Evaluation protocol](docs/EVALUATION.md) · [Release scope](docs/RELEASE.md)
+[中文说明](README_zh-CN.md) · [Data & inputs](docs/DATA.md) · [Reproduction](docs/REPRODUCING.md) · [Evaluation protocol](docs/EVALUATION.md) · [Release scope](docs/RELEASE.md) · [Incremental preparation](docs/PREPARATION.md)
 
 > **Research release, 2026-11-11.** Asset generation and evaluation qualification are ongoing. This repository publishes numerical evaluation components, experiment adapters, and frozen membership metadata. It does **not** report a completed benchmark, provide pretrained checkpoints, or claim that the historical experiment can be reproduced end-to-end from this checkout alone. See the dependency and data limitations below.
 
