@@ -574,6 +574,27 @@
       "original_sha256": "3010728070055ed328f5842c1416818963486085752a9ff16240df7d9597f855",
       "published_sha256": "3010728070055ed328f5842c1416818963486085752a9ff16240df7d9597f855",
       "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/spatial_calibration.py",
+      "published": "evaluation/spatial_calibration.py",
+      "original_sha256": "77df01a0f422345dd3147fbe32227cc8a30bbfdd8583fbdd5a4c7702bfde7599",
+      "published_sha256": "77df01a0f422345dd3147fbe32227cc8a30bbfdd8583fbdd5a4c7702bfde7599",
+      "changes": "none"
+    },
+    {
+      "source": "evaluation_nuscenes_v1/scripts/test_spatial_calibration.py",
+      "published": "evaluation/test_spatial_calibration.py",
+      "original_sha256": "168d6eb43e784028ca66939fbfe3437b001c0ad69f122815b38c29a11c1ccd12",
+      "published_sha256": "168d6eb43e784028ca66939fbfe3437b001c0ad69f122815b38c29a11c1ccd12",
+      "changes": "none"
+    },
+    {
+      "source": "scripts/audit_spatial_calibration_pilot.py",
+      "published": "research_snapshot/scripts/audit_spatial_calibration_pilot.py",
+      "original_sha256": "93d850ddd11900ab0002c7aea90a0e400ff0d6031d28cf7c48363a337ea654a3",
+      "published_sha256": "93d850ddd11900ab0002c7aea90a0e400ff0d6031d28cf7c48363a337ea654a3",
+      "changes": "none"
     }
   ]
 }

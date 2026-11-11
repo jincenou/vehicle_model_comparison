@@ -1,0 +1,30 @@
+{
+  "schema": "shared_spatial_calibration_draft_v1",
+  "status": "mathematics_tested_measurement_rule_not_qualified",
+  "scope": "All nine methods share reference object, spatial convention and observation contract; native representation retained",
+  "allowed_transform": "positive isotropic scale + accepted proper rotation + declared centre translation",
+  "forbidden": [
+    "anisotropic stretching",
+    "reflections",
+    "per-method best-view selection",
+    "per-prediction image recentering or crop fitting",
+    "heldout-based pose or scale fitting"
+  ],
+  "separate_evaluation_modes": [
+    "known_length_conditioned_shape",
+    "absolute_scale_recovery_without_rescaling"
+  ],
+  "shared_reference_camera": true,
+  "measurement_rule": {
+    "status": "pending_native_representation_validation",
+    "legacy_rejected_for_formal_scoring": "Gaussian-centre quantiles and mesh-vertex quantiles do not define a shared physical extent",
+    "candidate_for_validation": "Common native alpha-support measurements under fixed orthographic views, common threshold and resolution-convergence checks",
+    "candidate_is_not_frozen_metric_protocol": true
+  },
+  "core": "evaluation_nuscenes_v1/scripts/spatial_calibration.py",
+  "tests": "evaluation_nuscenes_v1/scripts/test_spatial_calibration.py",
+  "tested_existing_pilot": "scene-0064_t000637",
+  "pilot_reference_eligible": false,
+  "formal_metrics_enabled": false,
+  "native_assets_modified": false
+}
